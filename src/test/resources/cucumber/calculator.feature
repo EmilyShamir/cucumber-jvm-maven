@@ -20,3 +20,4 @@ Feature: Calculator Emily1
         | 3 | Green Tea | £3.11          | 75   |6  |
         |100| Green Tea | £3.11          | 50   |101|
         |1  | Coffee    |£11.23          | 120  |1  |
+        |2  | Apple     |£5.44           | 12   |3  |
