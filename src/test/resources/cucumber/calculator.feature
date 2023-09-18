@@ -10,12 +10,6 @@ Feature: Calculator Emily1
     Given I have a calculator
     When I add 2 and 3
     Then the result should be 5
-
-    @TSCID2116084
-  Scenario: Add two numbers
-    Given I have a calculator
-    When I add 2 and 3
-    Then the result should be 5
      
 @TSCID2116085
   Scenario Outline: As a client user I want to see that the special "FractionPriceRule" rule is applied to my order
