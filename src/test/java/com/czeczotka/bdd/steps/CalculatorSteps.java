@@ -57,4 +57,21 @@ public class CalculatorSteps {
         //throw new InvocationTargetException(new Throwable());
         //assertEquals(result, calculator.getResult());
     }
+
+    @Given("a client user on the dashboard page of the application")
+public void aClientUserOnTheDashboardPageOfTheApplication() {
+}
+    @When("client adds to cart a number of {string} units of {string}, more or equal than {string} units")
+public void clientAddsToCartANumberOfUnitsOfMoreOrEqualThanUnits(String arg0, String arg1, String arg2) {
+
+}
+
+    @Then("the client sees in his cart that instead of the original price {string} per unit of {string} he has to pay a new price which is {string} percentage of the original price {string}")
+public void theClientSeesInHisCartThatInsteadOfTheOriginalPricePerUnitOfHeHasToPayANewPriceWhichIsPercentageOfTheOriginalPrice(String arg0, String arg1, String arg2, String arg3) {
+}
+
+    @And("total price is computed as {string} times {string}")
+public void totalPriceIsComputedAsTimes(String arg0, String arg1) {
+
+}
 }
