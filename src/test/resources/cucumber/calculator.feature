@@ -10,7 +10,7 @@ Feature: Calculator Emily1
      
   Scenario Outline: As a client user I want to see that the special "FractionPriceRule" rule is applied to my order
       Given a client user on the dashboard page of the application
-      Given a client user on the dashboard page of the application
+      Given a Emily client user on the dashboard page of the application
       When client adds to cart a number of "<M>" units of "<product>", more or equal than "<N>" units
       Then the client sees in his cart that instead of the original price "<original_price>" per unit of "<product>" he has to pay a new price which is "<X>" percentage of the original price "<original_price>"
       And total price is computed as "<M>" times "<X>"
