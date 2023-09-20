@@ -8,7 +8,7 @@ Feature: Calculator Emily1
   So that I don't need to calculate myself
 
 @TSCID2117083
-  Scenario: Add two numbers Emily3
+  Scenario: Add two numbers Emily6
     Given I have a calculator
     When I add 2 and 3
     Then the result should be 5
